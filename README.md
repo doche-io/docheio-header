@@ -29,8 +29,6 @@ let g:mail_docheio = 'yourLogin@doche.io'
 
 ### **Usage**
 
-In **NORMAL** mode you can use `:Stddocheioheader` or simply press the shortcut <kbd>F1</kbd>.
+In **NORMAL** mode you can use `:Stddocheioheader`.
 
 Under **Linux** you eventually need to disable the **help** shortcut of your **terminal** :
-
-For **Terminator**, right click -> Preferences -> Shortcuts -> change help with something other than <kbd>F1</kbd>
