@@ -11,7 +11,7 @@ let s:asciiart = [
 let s:start		= '/*'
 let s:end		= '*/'
 let s:fill		= '*'
-let s:length	= 120
+let s:length	= 112
 let s:margin	= 5
 
 let s:types		= {
