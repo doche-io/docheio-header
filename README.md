@@ -30,5 +30,3 @@ let g:mail_docheio = 'yourLogin@doche.io'
 ### **Usage**
 
 In **NORMAL** mode you can use `:Stddocheioheader`.
-
-Under **Linux** you eventually need to disable the **help** shortcut of your **terminal** :
