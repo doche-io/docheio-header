@@ -79,8 +79,8 @@ function! s:line(n)
 endfunction
 
 function! s:user()
-	if exists('g:user42')
-		return g:user42
+	if exists('g:user-docheio')
+		return g:user-docheio
 	endif
 	let l:user = $USER
 	if strlen(l:user) == 0
@@ -90,12 +90,12 @@ function! s:user()
 endfunction
 
 function! s:mail()
-	if exists('g:mail42')
-		return g:mail42
+	if exists('g:mail-docheio')
+		return g:mail-docheio
 	endif
 	let l:mail = $MAIL
 	if strlen(l:mail) == 0
-		let l:mail = "marvin@42.fr"
+		let l:mail = "marvin@doche.io"
 	endif
 	return l:mail
 endfunction
@@ -137,13 +137,12 @@ function! s:update()
 	return 1
 endfunction
 
-function! s:stdheader()
+function! s:stddocheioheader()
 	if s:update()
 		call s:insert()
 	endif
 endfunction
 
 " Bind command and shortcut
-command! Stdheader call s:stdheader ()
-map <F1> :Stdheader<CR>
+command! Stddocheioheader call s:stddocheioheader ()
 autocmd BufWritePre * call s:update ()
