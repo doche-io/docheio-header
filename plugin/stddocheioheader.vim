@@ -79,8 +79,8 @@ function! s:line(n)
 endfunction
 
 function! s:user()
-	if exists('g:user-docheio')
-		return g:user-docheio
+	if exists('g:user_docheio')
+		return g:user_docheio
 	endif
 	let l:user = $USER
 	if strlen(l:user) == 0
@@ -90,8 +90,8 @@ function! s:user()
 endfunction
 
 function! s:mail()
-	if exists('g:mail-docheio')
-		return g:mail-docheio
+	if exists('g:mail_docheio')
+		return g:mail_docheio
 	endif
 	let l:mail = $MAIL
 	if strlen(l:mail) == 0
