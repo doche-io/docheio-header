@@ -6,7 +6,7 @@ docheio (Japan)
 
 docheio standard header for vim editor.
 
-![42 header](img/42header.jpg)
+![docheio header](img/docheio-header.png)
 
 ### **UNIX Setup**
 
