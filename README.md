@@ -10,7 +10,7 @@ docheio standard header for vim editor.
 
 ### **UNIX Setup**
 
-Copy `stdheader.vim` in your `~/.vim/plugin`, or use your favorite plugin
+Copy `stddocheioheader.vim` in your `~/.vim/plugin`, or use your favorite plugin
 manager. Then set the user and mail variables as explained below.
 
 #### Option 1: export USER and MAIL in your shell configuration file
