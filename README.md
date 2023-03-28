@@ -23,8 +23,8 @@ Add in `~/.zshrc` your:
 #### Option 2: set user and mail values directly in your vimrc
 
 ```vim
-let g:user-docheio = 'yourLogin'
-let g:mail-docheio = 'yourLogin@doche.io'
+let g:user_docheio = 'yourLogin'
+let g:mail_docheio = 'yourLogin@doche.io'
 ```
 
 ### **Usage**
