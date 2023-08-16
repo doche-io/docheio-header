@@ -15,7 +15,7 @@ let s:length	= 112
 let s:margin	= 3
 
 let s:types		= {
-			\'\.c$\|\.h$\|\.cc$\|\.hh$\|\.cpp$\|\.go$\|\.hpp$\|\.ts$\|\.php':
+			\'\.c$\|\.h$\|\.cc$\|\.hh$\|\.cpp$\|\.go$\|\.hpp$\|\.ts$\|\.rs$\|\.php':
 			\['/*', '*/', '*'],
 			\'\.htm$\|\.html$\|\.xml$':
 			\['<!--', '-->', '*'],
